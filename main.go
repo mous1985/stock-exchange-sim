@@ -24,6 +24,7 @@ func main() {
 	if err != nil {
 		fmt.Println("File reading error", err)
 		return
+
 	}
 
 	production := production.Production{}
